@@ -6,7 +6,6 @@ const inch_inch = 69;
 const finalInch = checkFeet(inch_inch);
 console.log(finalInch);
 
-
 function checkFeetInch(inch) {
     let searchFeet = inch / 12;
     let feetInteger = Math.floor(searchFeet);
